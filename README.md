@@ -1,24 +1,26 @@
-# README
+## Table of contents
+General info
+Technologies
+Setup
+Endpoints
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## General info
+This project is simple api that is meant to test the CRUD operations and also the validations and serializations of the database.
 
-Things you may want to cover:
+## Technologies
+Project is created with:
 
-* Ruby version
+    ruby on rails
+    serializer gem
+    postgresql
+    railway
 
-* System dependencies
 
-* Configuration
+## Setup
+To run this project, bundle install and set migrations and seed data and then run the rails server:
 
-* Database creation
+$ cd/superheroes $ bundle install $ rails db:migrate db:seed $ rails s
 
-* Database initialization
+After setting up routes, make sure to return JSON data in the format specified along with the appropriate HTTP verb. Use postman to test out this.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Endpoints

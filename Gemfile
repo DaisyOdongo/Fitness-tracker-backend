@@ -7,7 +7,7 @@ ruby "2.7.4"
 gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -17,8 +17,24 @@ gem "bcrypt", "~> 3.1.7"
 
 gem "active_model_serializers"
 
+# Faker
+gem "faker"
+
+# Pry
+gem "pry"
+# Use Redis adapter to run Action Cable in production
+# gem "redis", "~> 4.0"
+
+# Add Active Support
+gem 'activesupport'
+# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
+# gem "kredis"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+
+# Reduces boot times through caching; required in config/boot.rb
+gem "bootsnap", require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem "rack-cors"

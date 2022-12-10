@@ -39,6 +39,6 @@ railway up
 
 After setting up routes, make sure to return JSON data in the format specified along with the appropriate HTTP verb. Use postman to test out this.
 
-Link to vercel frontend: my-fitness-app-vump-l2vidnq41-daisyodongo.vercel.app
+Link to vercel frontend: "my-fitness-app-vump-l2vidnq41-daisyodongo.vercel.app"
 
 ## Endpoints
